@@ -65,6 +65,9 @@ set foldenable
 "Use indent folding as default
 set foldmethod=indent
 
+"The the default level of folding when opening a new buffer
+set foldlevelstart=20
+
 "---For TMUX---
 "Use vertical line for cursor instead of block when using TMUX
 if exists('$TMUX')
