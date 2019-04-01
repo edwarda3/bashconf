@@ -1,6 +1,6 @@
 Bashrc, vimrc by me
 
-Tmux conf file by samoshkin
+Tmux conf file by [samoshkin](https://github.com/samoshkin/tmux-config)
 
 Run install.sh for automatic install
 
@@ -16,6 +16,8 @@ tmux/tmux.conf => ~/.tmux.conf
 ```
 $ cp bashrc ~/.bashrc; cp bash_aliases ~/.bash_aliases; cp vimrc ~/.vimrc; cp tmux.conf ~/.tmux.conf
 ```
+
+---
 
 For Mac:
 ```
