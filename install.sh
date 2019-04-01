@@ -39,6 +39,10 @@ if [ -e "$HOME/.bash_aliases" ]; then
   printf "Found existing .bash_aliases in your \$HOME directory. Will create a backup at $HOME/.bash_aliases.bak\n"
 fi
 
+if [ ! -a "$HOME/.inputrc" ]; then
+  echo "set completion-ignore-case On" > "$HOME/.inputrc"
+fi
+
 cp -f "$HOME/.tmux.conf" "$HOME/.tmux.conf.bak" 2>/dev/null || true
 cp -f "$HOME/.vimrc" "$HOME/.vimrc.bak" 2>/dev/null || true
 cp -f "$HOME/.bashrc" "$HOME/.bashrc.bak" 2>/dev/null || true
