@@ -1,10 +1,16 @@
-Copy the files from this repo as their configuration files:
+Bashrc, vimrc by me
+
+Tmux conf file by samoshkin
+
+Run install.sh for automatic install
+
+For manual installation, copy the files from this repo as their configuration files:
 ```
 bashrc => ~/.bashrc
 bash_profile_mac => ~/.bash_profile
 bash_aliases => ~/.bash_aliases
 vimrc => ~/.vimrc
-tmux.conf => ~/.tmux.conf
+tmux/tmux.conf => ~/.tmux.conf
 ```
 
 ```
